@@ -131,7 +131,7 @@ def prepare_input(sample, meta):
 # ---------------------------------------------------
 # UI
 # ---------------------------------------------------
-st.title("🌾 Crop Recommendation System")
+st.title("🌾 Crop Check")
 
 data = load_and_train_all_datasets()
 meta = data["Crop recommendation"]
